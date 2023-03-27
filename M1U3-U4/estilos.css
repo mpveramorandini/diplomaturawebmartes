@@ -1,0 +1,42 @@
+h1{
+    color: gray; /*Esto es un comentario */
+    background-color: rgb(241, 196, 15);
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    color: rgb(26, 82, 118);
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    color: rgb(235,152,78);
+}
+h4{
+    color: rgb(235,152,78);
+}
+/*como le doy las mismas propiedades al h3 y h4 juntos?*/
+
+li {
+    color: gray;
+    font-style: italic;
+}
+p{
+    color:rgb(44, 62, 80);
+    line-height: 20px; /* espacio entre linea y linea*/
+}
+.destacado{
+    color:rgb(142,68,173);
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formulario{
+    background-color: rgb(69, 179, 157);
+    width: 400px;
+    height: 650px;
+    border: 3px solid black;
+    padding: 20px;
+    margin-left: 200px;
+   
+}
