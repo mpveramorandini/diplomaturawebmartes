@@ -1,0 +1,111 @@
+/* font-family: 'Lilita One', cursive;
+   font-family: 'Noto Sans', sans-serif;*/
+
+h1{
+    color: gray; /*Esto es un comentario */
+    background-color: rgb(241, 196, 15);
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 15px 15px 35px rgb(128, 128, 128);
+    font-family: 'Noto Sans', sans-serif;
+ 
+}
+.barra {
+    color: rgb(26, 82, 118);
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(235,152,78);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+h3, h4 {
+    color: rgb(235,152,78);
+   
+}
+/* h4{
+    color: rgb(235,152,78);
+} */
+/*como le doy las mismas propiedades al h3 y h4 juntos?*/
+
+.series, .pelis {
+    color: rgb(24, 23, 23);
+   /* font-style: italic;*/
+    font-family: 'Lilita One', cursive;
+}
+p{
+    color:rgb(44, 62, 80);
+    line-height: 20px; /* espacio entre linea y linea*/
+    font-family: 'Noto Sans', sans-serif
+  
+}
+.destacado{
+    color:rgb(142,68,173);
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#formulario{
+    background-color: rgb(69, 179, 157);
+    width: 400px;
+    height: 650px;
+    border: 3px solid black;
+    padding: 20px;
+    margin-left: 200px;
+    box-shadow: -10px 10px 25px gray;
+    border-radius: 60px 60px 15px 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.texto_largo {
+    /* background-color:rgb(142,68,173);*/
+    background: rgb(23, 0, 36);
+    background: linear-gradient(120deg, rgba(23, 0, 36, 1) 14%, rgba(142, 68, 173, 0.9697128851540616) 56%);
+    color: rgb(235, 152, 78);
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 17px 17px 87px 18px rgba(246, 246, 130, 0.27);
+    -webkit-box-shadow: 17px 17px 87px 18px rgba(246, 246, 130, 0.27);
+    -moz-box-shadow: 17px 17px 87px 18px rgba(246, 246, 130, 0.27);
+    border: 6px solid rgb(69, 179, 157);
+    column-count: 3;
+    column-gap: 15px; /*separacion entre columnas*/
+    text-align: justify;
+    column-rule: 3px solid  rgb(241, 196, 15); /*linea entre columnas*/
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+.foto {
+    border-radius: 190px;
+    border: 3px solid gray;
+    filter: blur(4px) saturate(87%);
+    
+}
+.foto:hover {
+    filter: blur(0px) saturate(87%);
+   
+}
+
+.cara {
+    border: 2px solid black;
+}
+.enviar {
+    background: rgb(226,231,166);
+    background: linear-gradient(140deg, rgba(226,231,166,1) 5%, rgba(222,208,80,0.9697128851540616) 63%); 
+}
+.reset{
+    background: rgb(244,139,21);
+background: linear-gradient(140deg, rgba(244,139,21,1) 4%, rgba(173,94,68,0.9697128851540616) 99%);
+}
+.enviar ,.reset {
+    border-radius: 190px ;
+    border: gray solid 2px;
+}
+#comentario {
+color: grey;
+}
+
+
