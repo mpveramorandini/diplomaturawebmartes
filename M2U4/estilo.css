@@ -1,0 +1,50 @@
+.carrusel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:white;
+}
+
+.relleno {
+    background-color: black;
+    color: white;
+}
+
+.alerta {
+    background-color: gray;
+    color: white;
+}
+.cuenta{
+    text-align:left;
+}
+.botonEnviar{
+    background-color: #073e66;
+    color: white;
+}
+.promociones{
+    background-color: gray;
+    color: white;
+}
+.rectangulo{
+    background-color:white;
+    padding: 8px;
+
+}
+.footer{
+    background-color: #073e66;
+    text-align: center;
+    color: white;
+}
+.acordeonLorem{
+    padding: 3px;
+}
+body{
+    background-color: white;
+}
+.nav{
+    display:flex;
+}
+.grande{
+    padding:0px;
+    margin: 0px;
+    background-color:#073e66;
+}
