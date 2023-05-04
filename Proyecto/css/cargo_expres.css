@@ -84,8 +84,9 @@ reglas para el home*/
 }
 .columna h2{
     color: #d84315;
-    font-weight: 400;
+    font-weight: bold;
     text-align: center;
+    text-transform: uppercase;
 }
 /* fin del home*/
 
@@ -150,7 +151,7 @@ reglas para el home*/
 }
 .institucional h3{
     color: #d84315;
-    font-weight: 500;
+    font-weight:bold;
     text-transform: uppercase;
     font-style:normal;
     border-bottom: 1px solid #d84315;
@@ -171,7 +172,7 @@ reglas para el home*/
 }
 .clientes h3{
     color: #d84315;
-    font-weight: 500;
+    font-weight:bold;
     text-transform: uppercase;
     font-style:normal;
     border-bottom: 1px solid #d84315;
