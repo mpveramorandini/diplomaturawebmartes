@@ -1,0 +1,185 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header {
+    background-color: white;
+    padding: 15px 0;
+   
+}
+
+ header h1 {
+    color: rgb(81, 80, 80);
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 75px;
+    margin-left: 10px;
+}
+
+
+nav {
+    background-color: #d84315;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul li a.activo{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+/*
+reglas para el home*/
+.columna{
+    width: 30%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.columna p{
+    font-size: 20px;
+    text-align:center;
+}
+.columna h2{
+    color: #d84315;
+    font-weight: 400;
+    text-align: center;
+}
+/* fin del home*/
+
+/*inicio servicios*/
+
+ .introduccion p{
+    font-size: 12px; /*0.7rem*/
+ }
+
+ .nuestros_servicios h2{
+    text-transform: uppercase;
+ }
+.servicios{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: wrap;
+   
+}
+.servicio{
+    border-radius: 5px;
+    width: 31%;
+    text-align: center;
+    padding: 13px;
+    margin: 16px 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    
+}
+.servicio img{
+    border-radius: 5%;
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+.servicio h5 {
+    margin: 0;
+    color:rgb(81, 80, 80);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.servicio p{
+    color: rgb(81, 80, 80);
+    font-size: 10px;
+} 
+/*fin servicios*/
+/*inicio institucional*/ /* separar en dos*/
+.nosotros{
+   display: flex; 
+   justify-content: space-between;
+}
+.institucional{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    justify-content: space-between;
+    text-align:left;
+}
+.institucional h3{
+    color: #d84315;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style:normal;
+    border-bottom: 1px solid #d84315;
+    padding-bottom: 10px;
+}
+.institucional p{
+    font-size: 15px;
+}
+
+.clientes{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    display: block;
+    justify-content: space-between;
+    text-align:left;
+}
+.clientes h3{
+    color: #d84315;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style:normal;
+    border-bottom: 1px solid #d84315;
+    padding-bottom: 10px;
+}
+
+.clientes img{
+    max-width: 100%;
+}
+/*fin institucional*/
+
