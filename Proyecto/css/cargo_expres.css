@@ -228,7 +228,7 @@ reglas para el home*/
     
 }
 .datos ul li{
-    font-size:15px;
+    font-size:15px; 
 }
 .datos ul{
     list-style: none;
@@ -263,7 +263,7 @@ reglas para el home*/
 } 
 
 .formulario input[type="submit"]{
-    background: #d84315;
+    background:#972f10;
     box-shadow:0 0 10px rgba(0 ,0,0, 0.3);
     color: white;
     font-size: 16px;
@@ -274,5 +274,5 @@ reglas para el home*/
     cursor: pointer; /*aparece la manito*/
 }
 .formulario input[type="submit"]:hover{
-    background-color: #972f10;/*cambia de color cuando pasa la manito*/
+    background-color:#d84315;/*cambia de color cuando pasa la manito*/
 }
