@@ -228,7 +228,8 @@ reglas para el home*/
     
 }
 .datos ul li{
-    font-size:15px; 
+    font-size:15px;
+    padding-bottom: 7px; 
 }
 .datos ul{
     list-style: none;
