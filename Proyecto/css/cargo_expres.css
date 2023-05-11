@@ -17,7 +17,7 @@ header {
  header h1 {
     color: rgb(81, 80, 80);
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 700;
     font-style: italic;
     display: inline-block;
     position: relative;
@@ -46,6 +46,7 @@ nav ul li a{
     padding: 3px 6px;
     display: block;
     text-align: center;
+    text-transform: uppercase;
 }
 nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.3);
@@ -81,10 +82,11 @@ reglas para el home*/
 .columna p{
     font-size: 20px;
     text-align:center;
+    color: rgb(81, 80, 80);
 }
 .columna h2{
     color: #d84315;
-    font-weight: bold;
+    font-weight:500;
     text-align: center;
     text-transform: uppercase;
 }
@@ -94,10 +96,13 @@ reglas para el home*/
 
  .introduccion p{
     font-size: 12px; /*0.7rem*/
+    /* color: rgb(81, 80, 80); */
  }
 
  .nuestros_servicios h2{
     text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(81, 80, 80);
  }
 .servicios{
     display: flex;
@@ -118,7 +123,7 @@ reglas para el home*/
     
 }
 .servicio img{
-    border-radius: 5%;
+    border-radius: 5px;
     max-width: 100%;
     border: 1px solid #ccc;
 }
@@ -183,4 +188,91 @@ reglas para el home*/
     max-width: 100%;
 }
 /*fin institucional*/
+/*inicio galeria*/
+.galeria{
+    display: flex;/*todos a lo largo*/
+    flex-wrap: wrap;/*desborde hacia abajo*/
+    justify-content: flex-start;/*se van ordenando de izquierda a derecha*/
+}
+.galeria img{
+    width: 18%; /*porcentaje sobre el 100% del ancho*/
+    border: 1px solid #ddd; /* siempre grosor tipo y color*/
+    padding: 0.3em; /*separacion de la imagen respecto al borde*/
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+/*fin galeria*/
+/*inicio contacto*//*poner iconos en datos*/
+.contacto_directo{
+    color: rgb(81, 80, 80);
+    background-color:#f0eeeea7; 
+    padding: 3px;
+   padding-left: 20px;
+}
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    gap: 24px; 
+    color: rgb(81, 80, 80);
+}
 
+.form , .datos{
+    width: 50%;
+}
+
+.datos h2{
+    padding-left:40px;
+    
+}
+.datos ul li{
+    font-size:15px;
+}
+.datos ul{
+    list-style: none;
+    font-size:15px;
+    font-weight: 100;
+}
+
+.formulario p{
+    display:flex; /*pone a lo largo, uno al lado del otro*/
+}
+ .formulario p label{
+    min-width:80px;/*espacio minimo que ocupa el label*/
+    display:flex; /*caja contenedora*/
+    align-items:center; /*para que quede la etiqueta en el medio de la caja*/
+}
+.formulario p input, 
+.formulario p textarea{
+    width: 90%;
+    background: #f0eeeea7;
+    border-radius: 5px;
+    border: 1px solid #8a8787;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+.formulario p:nth-child(4){
+    align-items:start; /*cambia la posicion del 4to p*/
+}
+.formulario textarea{
+    resize:none;/*deja fijo el tamaño del area*/
+    height:150px;
+} 
+
+.formulario input[type="submit"]{
+    background: #d84315;
+    box-shadow:0 0 10px rgba(0 ,0,0, 0.3);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;/*ancho del boton*/
+    position: relative;/*posicion del boton*/
+    left: 5rem;/*alineacion*/
+    cursor: pointer; /*aparece la manito*/
+}
+.formulario input[type="submit"]:hover{
+    background-color: #972f10;/*cambia de color cuando pasa la manito*/
+}
