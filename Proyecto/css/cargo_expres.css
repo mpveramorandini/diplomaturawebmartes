@@ -277,3 +277,47 @@ reglas para el home*/
 .formulario input[type="submit"]:hover{
     background-color:#d84315;/*cambia de color cuando pasa la manito*/
 }
+@media screen and (min-width:100px) and (max-width :800px) {
+   
+    .holder{
+        width: 100%;
+    }
+
+    .homeimg img {
+        width: 100%;
+    }
+    .columnas{
+        width: 100%;
+    }
+.logo{
+    display:inline-flex;
+ align-items: self-end;
+}
+.logo h1{
+    font-weight:700;
+    font-size: 15px;
+    display: flex;
+    bottom: 50px;
+    margin-left: 10px;
+ 
+   
+}
+.galeria img{
+    width: 30%;
+   
+}
+.galeria{
+    justify-content:space-between;
+
+}
+.contacto{
+    display:block;
+    
+}
+.form {
+    width:100%;
+}
+
+
+}
+/*arreglar galeria y bajar contacto*/
