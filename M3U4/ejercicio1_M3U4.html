@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="ejercicio1.css">
+</head>
+<body id="cuerpo">
+    <div id="cuadrado1"></div>
+    <div id="cuadrado2"></div>
+    <div id="cuadrado3"></div>
+    
+    <!-- Tomé como referencia el ejercicio 14 y lo fui modificando -->
+
+    <script>
+
+        const cuerpo = document.getElementById('cuerpo');
+        const cuadrado1 = document.getElementById('cuadrado1');
+        cuadrado1.addEventListener('click', function () {
+            cuerpo.style.backgroundColor = 'red';
+        });
+        const cuadrado2 = document.getElementById('cuadrado2');
+        cuadrado2.addEventListener('click', function () {
+            cuerpo.style.backgroundColor = 'greenyellow';
+        });
+        const cuadrado3 = document.getElementById('cuadrado3');
+        cuadrado3.addEventListener('click', function () {
+            cuerpo.style.backgroundColor = 'blue';
+        });
+    </script>
+</body>
+</html>

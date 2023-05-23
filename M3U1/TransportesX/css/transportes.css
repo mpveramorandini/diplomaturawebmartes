@@ -240,3 +240,10 @@ h2{
     background-color: #2e64a1;/*cambia de color cuando pasa la manito*/
 }
  
+
+@media screen and(min-width:100px) and (max-width :900px){
+    nav {
+        background-color: #e14f4f;
+    }
+}
+

@@ -277,6 +277,8 @@ reglas para el home*/
 .formulario input[type="submit"]:hover{
     background-color:#d84315;/*cambia de color cuando pasa la manito*/
 }
+
+
 @media screen and (min-width:100px) and (max-width :800px) {
    
     .holder{
@@ -320,4 +322,16 @@ reglas para el home*/
 
 
 }
+
+/* 
+@media screen  and (max-width :992px) {
+    body{
+        background-color: #d84315;
+    }
+}
+@media screen  and (max-width :600px) {
+    body{
+        background-color:antiquewhite;
+    }
+} */
 /*arreglar galeria y bajar contacto*/
