@@ -1,10 +1,11 @@
+import '../estilos/componentes/paginas/Home.css';
 import React from "react";
 
 const Home = (props)=> {
     return (
-        <main className="holder">
+        <div className="holder">
             <div className="homeimg">
-                <img src="img/home/home.jpg" width="960"  alt="Carga"/>
+                <img className="foto_inicio" src="images/home/home.jpg"  alt="Carga"/>
             </div>
             <div className="columnas">
                 <div className="columna">
@@ -29,7 +30,7 @@ const Home = (props)=> {
                     </p>
                 </div>
                 </div>
-        </main>
+        </div>
     );
 }
 

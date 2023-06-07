@@ -11,6 +11,7 @@ import Contacto from "./paginas/Contacto";
 import Home from "./paginas/Home";
 import Nosotros from "./paginas/Nosotros";
 import Novedades from "./paginas/Novedades";
+import Servicios from "./paginas/Servicios";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <Route path="nosotros" element={<Nosotros/>} />
     <Route path="novedades" element={<Novedades/>} />
     <Route path="contacto" element={<Contacto/>} />
+    <Route path="servicios" element={<Servicios/>} />
      </Routes>
      </BrowserRouter>
      

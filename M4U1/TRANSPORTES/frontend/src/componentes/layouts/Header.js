@@ -1,10 +1,12 @@
+import '../../estilos/componentes/layout/Header.css';
+
 import React from 'react';
 const Header = (props)=> {
     return (
         <header>
         <div className ="holder logo">
-            <img src="logo.png" width="400" alt="Cargo Expres"/>
-            <h1>LLAMANOS AL 0810-555-2270</h1>
+            <img className='img_logo' src="logo.png" width="400" alt="Cargo Expres"/>
+            <h2>LLAMANOS AL 0810-555-2270</h2>
         </div>
         </header>
     
