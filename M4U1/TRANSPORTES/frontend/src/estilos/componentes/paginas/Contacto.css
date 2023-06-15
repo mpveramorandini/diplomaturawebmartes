@@ -86,4 +86,19 @@
     display:block;
     width:80%;
     }
+    .contacto_directo{
+       padding-left: 30px;
+    }
+    .form{
+        padding-left: 30px;
+    }
+    .datos{
+        padding-left:0;
+    }
+    .datos ul li{
+        font-weight: bold;
+    }
+    .formulario p label{
+       font-weight: bold;
+    }
 }

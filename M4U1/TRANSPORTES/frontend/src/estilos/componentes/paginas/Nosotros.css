@@ -53,3 +53,15 @@
         max-width: 960px;
         margin: 0 auto;
     }
+
+    @media screen and (min-width:100px) and (max-width :800px) {
+   
+        .holder{
+            width: 100%;
+        }
+
+    .clientes, .institucional{
+        text-align:center;
+        margin: 10px;
+        } 
+    }

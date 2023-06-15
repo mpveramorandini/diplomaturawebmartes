@@ -1,12 +1,12 @@
 .columna{
     width: 30%;
     padding-right: 10px;
-    box-sizing: border-box;
 }
 
 .columnas{
     display: flex;
     justify-content: space-between;
+    flex-direction:row;
 }
 .columna p{
     font-size: 20px;
@@ -32,8 +32,19 @@
     .holder{
         width: 100%;
     }
-    .columnas{
-        width: 90%;
-    }
 
+    .columnas{
+    display:block;
+  
+    }
+    .columna{
+     width:90%;
+     padding-left: 25px;
+
+    }
+    .uno p, .dos p{
+        border-bottom: #d84315 1px solid;
+        padding-bottom: 15px;
+    }
+   
 }
