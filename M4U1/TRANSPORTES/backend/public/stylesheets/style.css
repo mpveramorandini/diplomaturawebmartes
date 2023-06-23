@@ -1,0 +1,35 @@
+header {
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h2 {
+  color: rgb(81, 80, 80);
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+footer{
+  background-color: #ccc;
+  clear: both;
+  color: #333;
+  text-align: center;
+  padding: 5px 0;
+  margin-top: 20px;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+} 
+.holder{
+  max-width: 960px;
+  margin: 0 auto;
+}
