@@ -46,6 +46,9 @@
  @media screen and (min-width:100px) and (max-width :800px) {
    
     .holder{
+        width: 90%;
+    }
+    .servicio{
         width: 100%;
     }
     .introduccion{

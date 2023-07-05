@@ -56,12 +56,17 @@
 
     @media screen and (min-width:100px) and (max-width :800px) {
    
-        .holder{
+         .nosotros{
+            margin-right: 35px;
+            display: block;
+        } 
+        .institucional{
             width: 100%;
         }
-
+    
     .clientes, .institucional{
         text-align:center;
         margin: 10px;
+    
         } 
     }
