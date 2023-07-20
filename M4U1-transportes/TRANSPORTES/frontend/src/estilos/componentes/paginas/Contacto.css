@@ -73,6 +73,7 @@
     position: relative;/*posicion del boton*/
     left: 5rem;/*alineacion*/
     cursor: pointer; /*aparece la manito*/
+    transition-duration: 1s;
 }
 .formulario input[type="submit"]:hover{
     background-color:#d84315;/*cambia de color cuando pasa la manito*/

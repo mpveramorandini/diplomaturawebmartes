@@ -20,6 +20,7 @@ nav ul li a{
     display: block;
     text-align: center;
     text-transform: uppercase;
+    transition-duration: 1s;
 }
 nav ul li a:hover{
     background-color: rgba(0, 0, 0, 0.3);
