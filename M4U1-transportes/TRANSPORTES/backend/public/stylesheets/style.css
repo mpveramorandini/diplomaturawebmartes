@@ -34,15 +34,23 @@ body {
   margin: 0 auto;
 }
 
-.container {
-  padding-top: 2rem;
-  margin: 0 auto;
+.row p{
+  text-transform: uppercase;
 }
-.mb-3, form{
- justify-content: center;
+.ingresar{
+  background-color: rgb(163, 8, 8);
+  border-color: rgb(163, 8, 8);
 }
-.btn ,.container p {
-  margin-left: 385px;
+.ingresar:hover{
+  background-color: rgb(204, 22, 22);
+  border-color: rgb(204, 22, 22);
+}
+.form-control, .modificar{
+  margin-bottom: 1rem;
 }
 
-
+.form-control:focus{
+  border: rgb(178, 176, 174) solid 3px;
+  box-shadow: 0 1px 1px rgba(95, 93, 93, 0.075)inset, 0 0 4px rgba(5, 5, 5, 0.6);
+  outline: 0 none;
+}
