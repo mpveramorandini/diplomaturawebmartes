@@ -42,7 +42,7 @@ const Contacto = (props)=> {
                         <li><i className="fa-solid fa-phone icono"></i> (011)442-43355</li>
                         <li><i className="fa-solid fa-phone icono "></i> (011)44243356</li>
                         <li><i className="fa-solid fa-phone icono"></i> (011)44242357</li>
-                        <li><i className="fa-solid fa-phone icono"></i> (011)44243375</li>
+                        <li><i className="fa-solid fa-phone icono"></i> (011)44243358</li>
                         <li><i className="fa-solid fa-envelope icono"></i> contacto@cargo_expres.com.ar</li>
                         <li><i className="fa-brands fa-whatsapp icono"></i> 1145982563</li>
                         <li><i className="fa-brands fa-instagram icono"></i> cargo_expres</li>

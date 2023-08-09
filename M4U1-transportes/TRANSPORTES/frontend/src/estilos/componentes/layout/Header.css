@@ -1,7 +1,7 @@
 header {
     background-color: #ccc;
     padding: 15px 0;
-
+    display: flex;
 }
 
 header h2 {
@@ -12,7 +12,26 @@ header h2 {
     display: inline-block;
     position: relative;
     bottom: 75px;
-    margin-left: 100px;
+    margin-left: 2rem;
+}
+
+.navIcons {
+    list-style: none;
+    display:inline-block;
+    position:relative;
+    margin-right: 2rem;
+    padding: 1.5rem;
+}
+.navIcons li {
+ padding: 0.5rem;
+}
+
+.navIcons a {
+    color: #373535;
+    text-decoration: none;
+}
+.navIcons a:hover{
+    color: #faf9f9;
 }
 
  @media screen and (min-width:100px) and (max-width :767px) {
@@ -24,6 +43,10 @@ header h2 {
     .img_logo{
         margin-left: 4%;
     }
+    
+.navIcons {
+   padding-left: 2.5rem;
+}
  }
  @media screen and (min-width:768px) and (max-width :1023px) {
     header h2 {
