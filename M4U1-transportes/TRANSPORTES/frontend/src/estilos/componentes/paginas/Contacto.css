@@ -1,61 +1,76 @@
-.contacto_directo{
+.contacto_directo {
     color: rgb(81, 80, 80);
-    background-color:#f0eeeea7; 
+    background-color: #f0eeeea7;
     padding: 3px;
-   padding-left: 20px;
+    padding-left: 20px;
 }
-.contacto{
+
+.contacto {
     display: flex;
     justify-content: space-between;
-    flex-direction:row;
-    gap: 24px; 
+    flex-direction: row;
+    gap: 24px;
     color: rgb(81, 80, 80);
 }
-.casaCentral{
+
+.casaCentral {
     color: rgb(81, 80, 80);
 }
-.casaCentral h2{
+
+.casaCentral h2 {
     padding-left: 10px;
 }
-.contacto div{
+
+.contacto div {
     width: 100%;
 }
-.icono{
+
+.icono {
     color: #d84315;
 }
 
-.form , .datos{
+.form,
+.datos {
     width: 50%;
-    padding: 10px ;
+    padding: 10px;
 }
 
 .datos h2 {
-    padding-left:40px;
-    padding-bottom: 12px; 
+    padding-left: 40px;
+    padding-bottom: 12px;
 }
-.form h2{
-    padding-bottom: 12px; 
+
+.form h2 {
+    padding-bottom: 12px;
 }
-.datos ul li{
-    font-size:15px;
-    padding-bottom: 7px; 
+
+.datos ul li {
+    font-size: 15px;
+    padding-bottom: 7px;
 }
-.datos ul{
+
+.datos ul {
     list-style: none;
-    font-size:15px;
+    font-size: 15px;
     font-weight: 100;
 }
 
-.formulario p{
-    display:flex; /*pone a lo largo, uno al lado del otro*/
+.formulario p {
+    display: flex;
+    /*pone a lo largo, uno al lado del otro*/
 }
- .formulario p label{
-    min-width:80px;/*espacio minimo que ocupa el label*/
-    display:flex; /*caja contenedora*/
-    align-items:center; /*para que quede la etiqueta en el medio de la caja*/
+
+.formulario p label {
+    min-width: 80px;
+    /*espacio minimo que ocupa el label*/
+    display: flex;
+    /*caja contenedora*/
+    align-items: center;
+    /*para que quede la etiqueta en el medio de la caja*/
 }
-.formulario p input, 
-.formulario p textarea{
+
+.formulario p input,
+.formulario p textarea {
     width: 90%;
     background: #f0eeeea7;
     border-radius: 5px;
@@ -63,63 +78,84 @@
     font-size: 14px;
     padding: 6px 10px;
 }
+
 .formulario p input:hover {
-    
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    transition-duration: 1s;
-}
-.formulario p textarea:hover{
-   
+
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition-duration: 1s;
 }
 
-.formulario p:nth-child(4){
-    align-items:start; /*cambia la posicion del 4to p*/
-}
-.formulario textarea{
-    resize:none;/*deja fijo el tamaño del area*/
-    height:150px;
-} 
+.formulario p textarea:hover {
 
-.formulario input[type="submit"]{
-    background:#972f10;
-    box-shadow:0 0 10px rgba(0 ,0,0, 0.3);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition-duration: 1s;
+}
+
+.formulario p:nth-child(4) {
+    align-items: start;
+    /*cambia la posicion del 4to p*/
+}
+
+.formulario textarea {
+    resize: none;
+    /*deja fijo el tamaño del area*/
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background: #972f10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: white;
     font-size: 16px;
     padding: 6px 20px;
-    width: auto;/*ancho del boton*/
-    position: relative;/*posicion del boton*/
-    left: 5rem;/*alineacion*/
-    cursor: pointer; /*aparece la manito*/
+    width: auto;
+    /*ancho del boton*/
+    position: relative;
+    /*posicion del boton*/
+    left: 5rem;
+    /*alineacion*/
+    cursor: pointer;
+    /*aparece la manito*/
     transition-duration: 1s;
 }
-.formulario input[type="submit"]:hover{
-    background-color:#d84315;/*cambia de color cuando pasa la manito*/
+
+.formulario input[type="submit"]:hover {
+    background-color: #d84315;
+    /*cambia de color cuando pasa la manito*/
 }
+
 @media screen and (min-width:100px) and (max-width :800px) {
-   
-    .holder{
+
+    .holder {
         width: 100%;
     }
-    .contacto, .casaCentral{
-    display:block;
-    width:90%;
+
+    .contacto,
+    .casaCentral {
+        display: block;
+        width: 90%;
     }
-    .contacto_directo{
-       padding-left: 30px;
-    }
-    .form{
+
+    .contacto_directo {
         padding-left: 30px;
     }
-    .datos{
-        padding-left:0;
+
+    .form {
+        padding-left: 30px;
     }
-    .datos ul li{
+
+    .datos {
+        padding-left: 0;
+    }
+
+    .datos ul li {
         font-weight: bold;
     }
-    .formulario p label{
-       font-weight: bold;
+
+    .formulario p label {
+        font-weight: bold;
     }
-  
+    .casaCentral iframe{
+        display: none;
+    }
 }

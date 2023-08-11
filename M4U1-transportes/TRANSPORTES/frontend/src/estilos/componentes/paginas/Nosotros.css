@@ -21,6 +21,9 @@
      border-bottom: 1px solid #d84315;
      padding-bottom: 10px;
  }
+ .institucional a{
+    text-decoration: none;
+ }
  .institucional p{
      font-size: 15px;
  }

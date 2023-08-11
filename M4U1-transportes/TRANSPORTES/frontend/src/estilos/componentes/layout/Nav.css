@@ -2,6 +2,8 @@
 nav {
     background-color: #d84315;
     margin-bottom: 20px;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
 }
 
 nav ul {
@@ -19,13 +21,15 @@ nav ul li a{
     padding: 3px 6px;
     display: block;
     text-align: center;
+    font-size: large;
     text-transform: uppercase;
     transition-duration: 1s;
 }
 nav ul li a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+   color: black;
 }
 nav ul li a.activo{
-    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    font-weight: 500;
 }
 

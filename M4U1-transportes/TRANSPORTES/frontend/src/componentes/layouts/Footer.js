@@ -1,5 +1,6 @@
 import "../../estilos/componentes/layout/Footer.css";
 import React from "react";
+
 const Footer = (props) => {
   return (
     <footer>
@@ -53,4 +54,7 @@ const Footer = (props) => {
   );
 };
 
-export default Footer;
+
+
+export default Footer; 
+
