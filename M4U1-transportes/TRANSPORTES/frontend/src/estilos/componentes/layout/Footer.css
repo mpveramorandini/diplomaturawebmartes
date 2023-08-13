@@ -43,6 +43,7 @@ ul li {
 
 .datos-footer ul li {
     list-style: none;
+    padding-top: 0.5rem;
 }
 
 .footer-abajo {
@@ -52,10 +53,46 @@ ul li {
     margin-bottom: 0%;
     text-align: center;
 }
+.datoUno, .datoDos, .datoTres{
+    width: 30%;
+}
+.datoUno ul a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+.datoDos ul a{
+    text-decoration: none;
+    color: #333;
+}
+.datoDos ul a:hover{
+    font-weight: bold;
+}
+.datoDos ul li{
+   padding-left: 6rem;
+}
+
+.datoDos ul li:nth-child(1){
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.datoTres ul li{
+    padding-top: 3rem;
+ }
+
+ 
 
 @media screen and (min-width:100px) and (max-width :800px) { 
-    .datos-footer{
-      display:block;
-    }
+   
+.datos-footer{
+    display: block;
+}
 
+    .datoUno, .datoDos, .datoTres{
+        width: 98%;
+    }
+    .datoDos ul li{
+        padding-left:0;
+     }
 }

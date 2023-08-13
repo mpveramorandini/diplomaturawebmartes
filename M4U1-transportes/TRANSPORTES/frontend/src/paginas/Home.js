@@ -1,6 +1,7 @@
 import '../estilos/componentes/paginas/Home.css';
 import React from "react";
 
+
 const Home = (props)=> {
     return (
         <div className="holder">

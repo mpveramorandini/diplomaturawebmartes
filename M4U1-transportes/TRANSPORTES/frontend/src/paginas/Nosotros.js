@@ -7,22 +7,24 @@ const Nosotros = (props)=> {
         <div className="holder">
         <div className="nosotros"> 
              <div className="institucional">  
-             <Link to="/quienes" className={({isActive}) => isActive ? "activo" : undefined } > <h3>quienes somos</h3></Link>
+              <h3>quienes somos</h3>
              {/* al hacer click me llevara a quienesSomos */}
                 
                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore a accusantium harum suscipit
                      quae,
                      natus dicta. Quam veritatis nemo esse? Labore inventore excepturi eius, voluptate nobis enim a
-                     dolores natus. Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                     dolores natus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <Link to="/quienes" className={({isActive}) => isActive ? "activo" : undefined } > <p>LEER MAS...</p></Link>
                  </p>
              </div>
               <div className="institucional">
-              <Link to="/historia" className={({isActive}) => isActive ? "activo" : undefined } > <h3>Reseña historica</h3></Link>
+               <h3>Reseña historica</h3>
                  
                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore a accusantium harum suscipit
                      quae,
                      natus dicta. Quam veritatis nemo esse? Labore inventore excepturi eius, voluptate nobis enim a
                      dolores natus. Lorem ipsum dolor sit amet consectetur adipisicing elit... 
+                     <Link to="/historia" className={({isActive}) => isActive ? "activo" : undefined } > <p>LEER MAS...</p></Link>
                  </p>
              </div> 
          </div>

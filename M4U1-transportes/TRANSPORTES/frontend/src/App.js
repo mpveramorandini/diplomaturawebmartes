@@ -18,6 +18,8 @@ import Servicios from "./paginas/Servicios";
 import QuienesSomos from './paginas/QuienesSomos';
 import Historia from './paginas/Historia';
 
+
+
 function App() {
   return (
     <div className="App">
@@ -37,6 +39,8 @@ function App() {
      </BrowserRouter>
      
      <Footer/>
+  
+  
     </div>
   );
 }
