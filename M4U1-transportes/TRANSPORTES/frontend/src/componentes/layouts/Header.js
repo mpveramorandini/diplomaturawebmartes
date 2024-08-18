@@ -3,7 +3,7 @@ import '../../estilos/componentes/layout/Header.css';
 import React from "react";
 const Header = (props) => {
   return (
-    <header>
+    <header id='toTop'>
       <div className="holder logo">
         <img
           className="img_logo"

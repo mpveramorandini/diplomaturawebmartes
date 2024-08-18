@@ -1,7 +1,10 @@
 header {
     background-color: #ccc;
-    padding: 15px 0;
+    /* padding: 15px 0; */
     display: flex;
+}
+.img_logo{
+    padding-top: 1rem;
 }
 
 header h2 {

@@ -1,20 +1,17 @@
 import '../estilos/componentes/paginas/QuienesSomos.css'
 import React from "react";
-import { NavLink } from "react-router-dom";
+import Quienes from "../componentes/NavQuienes";
 
+ 
 const QuienesSomos = (props)=> {
     return (
-        <div className="holder"> 
-        <div className='navIzq1'>
-    <nav>
-            <div className='navIzq3'>
-        <ul className="holder-izq">
-            <li><NavLink to="/quienes" className={({isActive}) => isActive ? "activo" : undefined } >Quienes Somos</NavLink></li>
-            <li><NavLink to="/historia" className={({isActive}) => isActive ? "activo" : undefined } >Historia</NavLink></li>
-        </ul>
-        </div></nav>
-    </div>
-    <div>
+        <div className="izq "> 
+      <div className="navQuienes">
+     <Quienes/>  
+       </div>
+       
+    <div className='der'>
+
         <h2 className='tituloQuienesSomos'>quienes somos</h2>
         <div className="quienesSomos">
 
@@ -52,6 +49,6 @@ const QuienesSomos = (props)=> {
 
 
     );
-}
+};
 
 export default QuienesSomos;

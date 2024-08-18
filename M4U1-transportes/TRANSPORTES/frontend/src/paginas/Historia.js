@@ -1,20 +1,15 @@
 import "../estilos/componentes/paginas/Historia.css";
 import React from "react";
-import { NavLink } from "react-router-dom";
+import Quienes from "../componentes/NavQuienes";
 
 const Historia = (props) => {
   return (
-    <div className="holder">
-     <div className='navIzq1'>
-    <nav>
-            <div className='navIzq3'>
-        <ul className="holder-izq">
-            <li><NavLink to="/quienes" className={({isActive}) => isActive ? "activo" : undefined } >Quienes Somos</NavLink></li>
-            <li><NavLink to="/historia" className={({isActive}) => isActive ? "activo" : undefined } >Historia</NavLink></li>
-        </ul>
-        </div></nav>
-    </div>
-
+    <div className="izq">
+       <div className="navQuienes">
+       <Quienes/> 
+       </div>
+    
+<div className="der">
       <h2 className="tituloHistoria">reseña historica</h2>
       <div className="reseñaHistorica">
         <div className="historias">
@@ -55,7 +50,7 @@ const Historia = (props) => {
               voluptate nobis enim a dolores natus. Lorem ipsum dolor sit amet
               consectetur adipisicing elit.
             </p>
-          </div>
+          </div></div>
         </div>
       </div>
     </div>

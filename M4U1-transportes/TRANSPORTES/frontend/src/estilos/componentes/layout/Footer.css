@@ -81,18 +81,28 @@ ul li {
     padding-top: 3rem;
  }
 
- 
-
-@media screen and (min-width:100px) and (max-width :800px) { 
-   
-.datos-footer{
-    display: block;
+.styles-module_avatar__afcc4 img{
+    display: none;
+}
+.styles-module_avatar__afcc4::after{
+    display: none;
 }
 
-    .datoUno, .datoDos, .datoTres{
+
+
+@media screen and (min-width:100px) and (max-width :800px) {
+
+    .datos-footer {
+        display: block;
+    }
+
+    .datoUno,
+    .datoDos,
+    .datoTres {
         width: 98%;
     }
-    .datoDos ul li{
-        padding-left:0;
-     }
+
+    .datoDos ul li {
+        padding-left: 0;
+    }
 }
